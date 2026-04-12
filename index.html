@@ -6,7 +6,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
-  <body>
+  <body class="bg-blue-100">
     <nav class="bg-white shadow-md fixed sticky w-full top-0 left-0 z-50 px-5">
       <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         <button id="menu-btn" class="md:hidden text-blue-900 focus:outline-none">
@@ -33,55 +33,122 @@
           <li><a href="tel:+2348052470223" class="block bg-blue-700 text-white px-4 py-2 font-mono rounded-lg text-center hover:bg-blue-900">Book Now</a></li>
         </ul>
       </div>
-  </nav>
-  <main class="p-1 md:p-6">
-    <div class="relative w-full">
-      <div class="absolute inset-0 md:hidden h-[500px]">
-        <img src="img/dentist.jpeg" alt="a female Dentist" class="w-full h-[500px] object-cover"/>
-        <div class="absolute inset-0 bg-black/50"></div>
-      </div>
-      <div class="relative max-w-7xl mx-auto px-4 py-20 md:py-24 grid md:grid-cols-2 items-center gap-10">
-        <div class="text-white md:text-gray-800">
-          <h1 class="text-4xl mt-25 md:text-6xl text-center md:text-start font-bold leading-tight mb-4">Your Smile, Our Priority</h1>
-          <p class="text-xl md:text-3xl text-center md:text-start mb-6 max-w-lg font-serif">Professional dental care with modern technology. We help you achieve a brighter, healthier smile with confidence.</p>
-          <div class="flex flex-col sm:flex-row gap-4">
-            <a href="https://wa.me/2348052470223" class="bg-blue-900 text-white px-6 py-3 rounded-lg text-center hover:bg-blue-600 transition">Book Appointment</a>
-            <a href="#" class="border border-white md:border-gray-800 px-6 py-3 rounded-lg text-center hover:bg-white hover:text-gray-800 md:hover:bg-gray-800 md:hover:text-white transition">Contact me</a>
+    </nav>
+    
+    <main class="p-1 md:p-6">
+      <div class="relative w-full">
+        <div class="absolute inset-0 md:hidden h-[500px]">
+          <img src="img/dentist.jpeg" alt="a female Dentist" class="w-full h-[500px] object-cover"/>
+          <div class="absolute inset-0 bg-black/50"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 py-20 md:py-24 grid md:grid-cols-2 items-center gap-10">
+          <div class="text-white md:text-gray-800">
+            <h1 class="text-4xl mt-25 md:text-6xl text-center md:text-start font-bold leading-tight mb-4">Your Smile, Our Priority</h1>
+            <p class="text-xl md:text-3xl text-center md:text-start mb-6 max-w-lg font-serif">Professional dental care with modern technology. We help you achieve a brighter, healthier smile with confidence.</p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="https://wa.me/2348052470223" class="bg-blue-900 text-white px-6 py-3 rounded-lg text-center hover:bg-blue-600 transition">Book Appointment</a>
+              <a href="#" class="border border-white md:border-gray-800 px-6 py-3 rounded-lg text-center hover:bg-white hover:text-gray-800 md:hover:bg-gray-800 md:hover:text-white transition">Contact me</a>
+            </div>
           </div>
-        </div>
-        <div class="hidden md:block">
-          <img src="img/dentist.jpeg" alt="a female Dentist" class="w-full h-[500px] object-cover rounded-2xl shadow-lg"/>
-        </div>
-      </div>
-    </div>
-  </main>
-  <section class="py-16 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4">
-      <div class="mb-10 p-3">
-        <h5 class="text-blue-900 text-center font-semibold uppercase tracking-wide mb-3">About Me</h5>
-        <h1 class="text-3xl md:text-4xl text-center font-sans font-bold text-black mb-3">Dedicated to Giving You a Healthier Smile</h1>
-        <p class="text-black text-xl font-sans text-center max-w-2xl">With years of professional experience, we provide top-quality dental care using modern techniques and a patient-first approach. Our goal is to ensure every visit leaves you feeling confident and comfortable.</p>
-      </div>
-      <div class="grid md:grid-cols-2 gap-10 items-center">
-        <div>
-          <img src="img/dentist.jpeg" alt="photo of Dr. Helen" class="w-full h-[500px] object-cover rounded-2xl shadow-md"/>
-        </div>
-        <div class="space-y-6">
-        <p class="text-gray-600">Our clinic is equipped with the latest dental technology, ensuring efficient and painless treatments. We focus on building long-term relationships with our patients, offering personalized care tailored to individual needs.</p>
-        <div class="grid grid-cols-2 gap-6">
-          <div class="bg-white p-6 rounded-xl shadow text-center">
-            <h2 class="text-3xl font-bold text-blue-600">10+</h2>
-            <p class="text-gray-600 mt-2">Years Experience</p>
-          </div>
-          <div class="bg-white p-6 rounded-xl shadow text-center">
-            <h2 class="text-3xl font-bold text-blue-600">5,000+</h2>
-            <p class="text-gray-600 mt-2">Happy Patients</p>
+          <div class="hidden md:block">
+            <img src="img/dentist.jpeg" alt="a female Dentist" class="w-full h-[500px] object-cover rounded-2xl shadow-lg"/>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </main>
+    
+    <section id="about" class="py-16">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="mb-10 p-3 max-w-5xl mx-auto">
+          <h5 class="text-blue-900 text-center font-semibold uppercase tracking-wide mb-3">About Me</h5>
+          <h1 class="text-3xl md:text-4xl text-center font-sans font-bold text-black mb-3">The Soul Behind The Smile</h1>
+          <p class="text-black text-xl font-sans text-center">With years of professional experience, she provide top-quality dental care using modern techniques and a patient-first approach. Her goal is to ensure every visit leaves you feeling confident and comfortable.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <img src="img/dentist.jpeg" alt="photo of Dr. Helen" class="w-full h-[500px] object-cover rounded-2xl shadow-md"/>
+          </div>
+          <div class="space-y-6 px-4">
+            <p class="text-black text-xl text-center p-3 font-sans">My clinic is equipped with the latest dental technology, ensuring efficient and painless treatments. I focus on building long-term relationships with our patients, offering personalized care tailored to individual needs.</p>
+            <div class="grid grid-cols-2 gap-6">
+              <div class="bg-blue-200 p-4 rounded-xl shadow-sm text-center">
+                <h2 class="text-3xl font-bold text-blue-900">4+</h2>
+                <p class="text-black mt-2 font-bold">Years Experience</p>
+              </div>
+              <div class="bg-blue-200 p-4 rounded-xl shadow-sm text-center">
+                <h2 class="text-3xl font-bold text-blue-900">800+</h2>
+                <p class="text-black mt-2 font-bold">Happy Patients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="services" class="py-35 p-3">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="mb-10 text-center">
+          <h1 class="text-3xl md:text-4xl font-bold font-sans text-black">My Services</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-blue-200 p-6 rounded-xl shadow hover:shadow-lg hover:-translate-y-1 transition">
+            <h3 class="text-2xl font-semibold mb-2 font-sans text-blue-900"><i class="fa-regular fa-circle-dot"></i> Teeth Whitening</h3>
+            <p class="text-black text-xl font-mono text-sm ml-6">Brighten your smile with safe and effective whitening treatments.</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg hover:translate-y-1 transition">
+            <h3 class="text-2xl font-semibold mb-2 font-sans text-blue-900"><i class="fa-regular fa-circle-dot"></i> Scaling & Polishing</h3>
+            <p class="text-black text-xl font-mono text-sm ml-6">Remove plaque and stains to maintain healthy teeth and gums.</p>
+          </div>
+          <div class="bg-blue-200 p-6 rounded-xl shadow hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold mb-2 font-sans text-blue-900"><i class="fa-regular fa-circle-dot"></i> Tooth Fillings</h3>
+            <p class="text-black text-xl font-mono text-sm ml-6">Restore damaged teeth and prevent further decay effectively.</p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold mb-2 font-sans text-blue-900"><i class="fa-regular fa-circle-dot"></i> Tooth Extraction</h3>
+            <p class="text-black text-xl font-mono text-sm ml-6">Safe removal of damaged or problematic teeth with minimal discomfort.</p>
+          </div>
+          <div class="bg-blue-200 p-6 rounded-xl shadow hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold mb-2 font-sans text-blue-900"><i class="fa-regular fa-circle-dot"></i> Braces</h3>
+            <p class="text-black text-xl font-mono text-sm ml-6">Straighten and align your teeth for a confident, perfect smile.</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold mb-2 font-sans text-blue-900"><i class="fa-regular fa-circle-dot"></i> Root Canal</h3>
+            <p class="text-black text-xl font-mono text-sm ml-6">Treat infected teeth and relieve pain while saving your natural tooth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="bg-gray-700 py-16 px-3">
+      <div class="max-w-7xl mx-auto px-4 text-white">
+        <div class="text-center mb-18">
+          <h1 class="text-3xl md:text-4xl font-bold">Why Dr. Helen?</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div class="flex items-start gap-4">
+            <div class="text-blue-400 text-3xl"><i class="fa-solid fa-circle-check"></i></div>
+            <div>
+              <h2 class="text-2xl font-semibold mb-2 font-sans text-white">Experienced Care</h2>
+              <p class="text-white text-xl font-mono">Years of hands-on experience delivering reliable and professional dental treatments.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="text-blue-400 text-3xl"><i class="fa-solid fa-circle-check"></i></div>
+            <div>
+              <h2 class="text-2xl font-semibold mb-2 font-sans text-white">Patient First Approach</h2>
+              <p class="text-white text-xl font-mono">Every patient is treated with care, comfort, and personalized attention.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="text-blue-400 text-3xl"><i class="fa-solid fa-circle-check"></i></div>
+            <div>
+              <h2 class="text-2xl font-semibold mb-2 font-sans text-white">Modern Technology</h2>
+              <p class="text-white text-xl font-mono">Advanced tools and techniques ensure efficient and painless treatments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   
   <script src="main.js"></script>
 </body>
